@@ -1,0 +1,28 @@
+create table users_prabhjyot (
+  id      NUMBER    ,
+  Name VARCHAR2(20) ,
+  userName VARCHAR2(20),
+  emailID VARCHAR2(20) ,
+  password VARCHAR2(20),
+  isRegistered Char(1) 
+);
+create table products_prabhjyot
+( Prodname VARCHAR(20),
+	prodId NUMBER,
+	OwnerId NUMBER,
+	biddingPrice NUMBER,
+  Sold CHAR(1)
+);
+create table User_Product(
+	            id NUMBER,
+              OwnerId NUMBER
+	    );
+drop table products_prabhjyot;
+drop table users_prabhjyot;
+drop table User_Product;
+select * from User_Product;
+select * from products_prabhjyot;
+select * from users_prabhjyot
+commit;
+
+

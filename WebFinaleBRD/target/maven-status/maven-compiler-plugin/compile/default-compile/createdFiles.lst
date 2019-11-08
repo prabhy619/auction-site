@@ -1,0 +1,10 @@
+spring\bean\Product.class
+spring\controller\controller.class
+spring\service\serviceImp.class
+spring\dao\ProductImpl.class
+spring\dao\CustomerImpl.class
+spring\bean\User.class
+spring\dao\CustomerDao.class
+spring\dao\ProductDao.class
+spring\config\SpringConfig.class
+spring\service\ServiceClass.class
